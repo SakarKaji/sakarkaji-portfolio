@@ -1,0 +1,106 @@
+baseURL: "https://sakarkaji.netlify.app"
+languageCode: en-us
+title: Sakar Kaji Dotel
+theme: PaperMod
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    # - identifier: blog
+    #   name: Blog
+    #   url: /blog
+    #   weight: 20
+    - identifier: projects
+      name: Projects
+      url: /projects
+      weight: 30
+    - identifier: experience
+      name: Experience
+      url: /experience
+      weight: 40
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 50
+    # - identifier: tags
+    #   name: Tags
+    #   url: /tags
+    #   weight: 60
+    # - identifier: notes
+    #   name: Notes
+    #   url: https://notes.arkalim.org
+    #   weight: 70
+
+params:
+  # theme
+  showToc: true
+  TocOpen: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideMeta: false
+
+  # for enchanced SEO
+  env: production
+
+  # Home Page
+  profileMode:
+    enabled: true
+    title: "Sakar Kaji Dotel"
+    # subtitle: Hi 👋 I'm Sakar, A Computer Science graduate and software engineer with genuine passion for learning and a strong interest in web development and AI.  I currently work as a backend engineer, where you’ll find me building cool things with Django harnessing cloud technology to enhance the scalability and responsiveness of the applications I develop.
+    subtitle: |
+              **Hi 👋 I’m Sakar**, a Computer Science graduate and software engineer with a genuine passion for learning and a strong interest in web development and AI.
+
+              I currently work as a backend engineer — building cool things with **Django** and harnessing **cloud technology** to enhance the scalability and performance of the applications I develop.
+
+
+    imageUrl: "home/hero_upscayl_3x_upscayl-standard-4x.png"
+    # imageUrl: "home/hero.jpg"
+    imageWidth: 250
+    imageHeight: 250
+    # buttons:
+    #   - name: Resume
+    #     url: ""
+
+  # List View
+  hideDescriptionInList: false
+
+  # cover image for posts
+  cover:
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  socialIcons:
+    - name: "email"
+      url: "mailto:sakarkd@gmail.com"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/sakar-kaji-dotel/"
+    - name: "github"
+      url: "https://github.com/SakarKaji"
+    - name: "gitlab"
+      url: "https://gitlab.com/sakarkaji"
+
+  # text search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# for search using Fuse.js
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# allow HTML in MD
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
