@@ -58,8 +58,8 @@ params:
 
     imageUrl: "home/hero_upscayl_3x_upscayl-standard-4x.png"
     # imageUrl: "home/hero.jpg"
-    imageWidth: 300
-    imageHeight: 325
+    imageWidth: 250
+    imageHeight: 275
     # buttons:
     #   - name: Resume
     #     url: ""
