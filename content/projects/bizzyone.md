@@ -3,7 +3,7 @@ title: "Bizzyone"
 description: "Bizzyone – A Connected Platform for Real Estate Buyers, Sellers & Admins"
 dateString: May 2025
 draft: false
-tags: ["AWS", "Flask", "Celery", "GitHub Action", "Docker"]
+tags: ["AWS", "Flask", "Celery", "GitHub Action", "Docker", "Postgres"]
 weight: 51
 cover:
     image: "/projects/bizzyone/home.png"

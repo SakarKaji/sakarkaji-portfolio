@@ -1,9 +1,9 @@
 ---
 title: "Ayomomo"
-description: "A web app bringing authentic Nepali momo to food lovers all across the UK."
+description: "A web app bringing authentic Nepali momo to food lovers and Nepalese living across the UK."
 dateString: Jun 2025
 draft: false
-tags: ["AWS", "Django", "Celery", "GitHub Action", "Docker"]
+tags: ["AWS", "Django", "Celery", "GitHub Action", "Docker", "Postgres"]
 showToc: false
 weight: 50
 cover:
@@ -11,31 +11,40 @@ cover:
 ---
 ## Intro
 
-[**Ayomomo**](https://www.ayomomo.com/) is a web-based platform built for a modern Nepali restaurant that specializes in authentic dumplings (momos). The project aims to bring traditional cuisine into the digital space with a fast, scalable, and cleanly designed web presence. It showcases brand identity while also laying the foundation for future features like online ordering, reservations, and customer profiles.
+**[**Ayomomo**](https://www.ayomomo.com/) is a UK-based web platform created for Nepali restaurants specializing in authentic dumplings (momo). It was initiated by UK based Nepali chef Binod Baral. Many Nepalese living UK miss the authentic taste of their comfort food, and Ayomomo solves this by providing genuine momo that taste like home.The goal of this project is connecting the Nepalese community to their culture as well as introduce Nepali cuisine to international food lovers.**
 
 ---
 
 ## 🛠 Tech Stack
 
-- **Backend:** Django (Python), Django REST Framework
-- **Frontend:** HTML, Tailwind CSS (with Django templates)
-- **Task Queue:** Celery + Redis (for background jobs)
-- **Deployment:** Docker, GitHub Actions CI/CD
+- **Backend:** Django (Python), Django REST Framework (DRF)
 - **Cloud Services:** AWS EC2 (hosted backend), S3 (for static/media files), CloudFront (CDN)
+- **Deployment:** Docker, GitHub Actions CI/CD
 - **Database:** PostgreSQL (via AWS RDS)
-- **Authentication:** Django Auth with session management
+- **Task Queue:** Celery + Redis (for background jobs)
 
 ---
 
 ## ⚙️ How It Works
 
-- **Home Page:** Clean and responsive layout that introduces the brand and food concept
-- **Authentication:** Users can sign up and log in securely using Django's built-in auth system
-- **FAQ & About Us:** Static pages rendered via Django templates to inform users
-- **Scalability:** Cloud-native setup using AWS EC2 and S3; Dockerized backend with automatic CI/CD via GitHub Actions
-- **Performance:** CloudFront used as a CDN to deliver static assets globally with low latency
-- **Background Processing:** Celery handles asynchronous tasks (e.g., image optimization, email jobs)
+### Restaurant Flow
+- **Sign Up:** Restaurants register using a form, providing details like restaurant name, business phone number, location, and logo.  
+- **Approval:** Admin reviews and approves the restaurant.  
+- **Menu Management:** Once approved, restaurants can post their menu items and prices.  
+- **Order Notifications:** When customers place orders, restaurants receive emails for each food item ordered, ensuring they prepare the correct items.  
 
+### Customer Flow
+- **Sign Up & Verification:** Customers register via a form with OTP email verification (handled asynchronously by Celery) or Google Sign-In.  
+- **Browse Restaurants:** After account creation, customers can browse and choose nearby restaurants.  
+- **Place Orders:** Customers place orders, selecting either delivery (cash on delivery) or pickup.  
+- **Multi-Restaurant Orders:** Customers can order from multiple restaurants in a single order. They receive a single consolidated email with all items, while each restaurant receives emails only for their specific items.
+
+
+### Key Features / Backend Handling
+- **Multi-vendor support:** Each restaurant manages its menu and receives orders independently.
+- **OTP verification & email notifications:** Managed asynchronously using Celery.
+- **Delivery vs pickup:** Flexible ordering options for customers.
+- **Order management:** Ensures correct email notifications to restaurants and customers.
 ---
 
 ## 🚀 Final Thoughts
@@ -47,9 +56,9 @@ This project reflects my ability to:
 - Architect cloud-based, scalable infrastructure
 - Combine clean design with performance-first development practices
 
-Next steps could include:
+Next steps includes:
 - Implementing a real-time order management system
-- Integrating Stripe or Khalti for online payments
-- Building a mobile-first frontend using React or Next.js
+- Integrating Stripe for online payments
 
 ---
+

@@ -56,10 +56,10 @@ params:
               I currently work as a backend engineer — building cool things with **Django** and harnessing **cloud technology** to enhance the scalability and performance of the applications I develop.
 
 
-    imageUrl: "home/hero_upscayl_3x_upscayl-standard-4x.png"
+    imageUrl: "home/profile.png"
     # imageUrl: "home/hero.jpg"
-    imageWidth: 250
-    imageHeight: 275
+    imageWidth: 275
+    imageHeight: 300
     # buttons:
     #   - name: Resume
     #     url: ""
