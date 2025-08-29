@@ -10,7 +10,7 @@
 <meta name="description" content="Online Grocery Platform for the Australian Market">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/projects/thinkmart/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.min.2b833c6baa7a96407c2417c7a4049985b42c21cccc2472abf4603967eafd2273.css" integrity="sha256-K4M8a6p6lkB8JBfHpASZhbQsIczMJHKr9GA5Z&#43;r9InM=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.2d8c5908b4b1c620a0b8444d51acb8ee5079ddbb61b654c393e5bc2b9ad72cb2.css" integrity="sha256-LYxZCLSxxiCguERNUay47lB53bthtlTDk&#43;W8K5rXLLI=" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.min.30d2332871da51f600f574811c17751e6c862577d450b624f86e2bc8a6e31221.js" integrity="sha256-MNIzKHHaUfYA9XSBHBd1HmyGJXfUULYk&#43;G4ryKbjEiE="
     onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="http://localhost:1313/favicon.ico">
@@ -101,8 +101,8 @@
   "keywords": [
     "AWS", "RegEx", "MkDocs", "GitHub Action", "Docker", "Bash", "TypeScript", "Node.JS"
   ],
-  "articleBody": "Intro The project Thinkmart, is an online grocery and essentials marketplace focused on Australian customers. It offers daily deals, bulk items, fresh produce, pantry staples, and household products — all available fo\n",
-  "wordCount" : "32",
+  "articleBody": "Intro Thinkmart(thinkmart.com) is a multi-vendor online grocery marketplace in Australia, making Nepali and other ethnic products easy to find while letting vendors manage their products, deals, and deliveries.\nIt solves the problem of customers struggling to find familiar products in one place and helps small stores sell online without building their own system.\nWith features like product syncing, secure Stripe payments, daily deals, and admin-approved vendor sign-up, Thinkmart offers an easy and smooth experience for both customers and vendors.\n🛠 Tech Stack Backend: Django (Python), Django REST Framework (DRF) Cloud Services: AWS EC2 (hosted backend), S3 (for static/media files), CloudFront (CDN) Deployment: Docker, GitHub Actions CI/CD Database: PostgreSQL (via AWS RDS) Task Queue: Celery (for sending otp) ⚙️ How It Works Vendor Flow Sign Up: Vendors register using a form, providing store details, location, images, and other necessary information.\nApproval: Admin reviews and approves the vendor before their products are listed.\nProduct Management: Once approved, vendors can add, edit, and manage products, set discounts, and create “Today’s Deals.”\nEPOS Integration: Vendors can sync products and inventory with EPOS Now to keep online and in-store catalogs consistent.\nCustomer Flow Sign Up \u0026 Verification: Customers register via a form with OTP email verification (handled asynchronously by Celery) or Google Sign-In.\nBrowse Products: Customers can browse products by category, deals, or offers.\nWishlist \u0026 Cart: Customers can add products to their wishlist or cart for later purchase.\nPlace Orders: Customers checkout securely using Stripe and can order from multiple vendors in one transaction.\nOrder Notifications: Customers receive emails with details of the products they ordered, including prices and vendor information.\nKey Features / Backend Handling Multi-vendor support: Each vendor manages their own products, discounts, and delivery rules.\nOTP verification \u0026 email notifications: Managed asynchronously using Celery.\nDeals \u0026 Offers: “Today’s Deals” and special offers highlight discounted products.\nPayment Integration: Stripe enables secure and seamless customer payments.\nEPOS Sync: Bi-directional product and inventory flow between Thinkmart and vendor POS.\nOrder Emails: Customers get detailed emails for every order they place, showing products and prices.\n🚀 Final Thoughts Thinkmart(thinkmart.com) bridges a real market gap: it brings community-specific grocery catalogs (like Nepali products) into a modern, scalable marketplace while staying inclusive of all vendors.\nWith a robust AWS + Django/DRF backbone, async tasking via Celery, Stripe payments, and EPOS Now syncing, the platform balances customer convenience with vendor autonomy—and sets the stage for sustainable growth across Australian suburbs and beyond.\n",
+  "wordCount" : "404",
   "inLanguage": "en",
   "image":"http://localhost:1313/projects/thinkmart/cover.png","datePublished": "0001-01-01T00:00:00Z",
   "dateModified": "0001-01-01T00:00:00Z",
@@ -207,23 +207,82 @@ Feburary 2025
   </header> 
 <figure class="entry-cover"><img loading="lazy" src="http://localhost:1313/projects/thinkmart/cover.png" alt="">
         
-</figure><div class="toc">
-    <details >
-        <summary accesskey="c" title="(Alt + C)">
-            <span class="details">‎ Table of Contents</span>
-        </summary>
-
-        <div class="inner"><ul>
-                <li>
-                    <a href="#intro" aria-label="Intro">Intro</a>
-                </li>
-            </ul>
-        </div>
-    </details>
-</div>
-
+</figure>
   <div class="post-content"><h2 id="intro">Intro<a hidden class="anchor" aria-hidden="true" href="#intro">#</a></h2>
-<p>The project <a href="https://www.thinkmart.com.au/"><strong>Thinkmart</strong></a>, is an online grocery and essentials marketplace focused on Australian customers. It offers daily deals, bulk items, fresh produce, pantry staples, and household products — all available fo</p>
+<p><a href="https://www.thinkmart.com.au/"><strong>Thinkmart(thinkmart.com)</strong></a> is a multi-vendor online grocery marketplace in Australia, making Nepali and other ethnic products easy to find while letting vendors manage their products, deals, and deliveries.</p>
+<p>It solves the problem of customers struggling to find familiar products in one place and helps small stores sell online without building their own system.</p>
+<p>With features like product syncing, secure Stripe payments, daily deals, and admin-approved vendor sign-up, Thinkmart offers an easy and smooth experience for both customers and vendors.</p>
+<hr>
+<h2 id="-tech-stack">🛠 Tech Stack<a hidden class="anchor" aria-hidden="true" href="#-tech-stack">#</a></h2>
+<ul>
+<li><strong>Backend:</strong> Django (Python), Django REST Framework (DRF)</li>
+<li><strong>Cloud Services:</strong> AWS EC2 (hosted backend), S3 (for static/media files), CloudFront (CDN)</li>
+<li><strong>Deployment:</strong> Docker, GitHub Actions CI/CD</li>
+<li><strong>Database:</strong> PostgreSQL (via AWS RDS)</li>
+<li><strong>Task Queue:</strong> Celery (for sending otp)</li>
+</ul>
+<hr>
+<h2 id="-how-it-works">⚙️ How It Works<a hidden class="anchor" aria-hidden="true" href="#-how-it-works">#</a></h2>
+<h3 id="vendor-flow">Vendor Flow<a hidden class="anchor" aria-hidden="true" href="#vendor-flow">#</a></h3>
+<ul>
+<li>
+<p><strong>Sign Up:</strong> Vendors register using a form, providing store details, location, images, and other necessary information.</p>
+</li>
+<li>
+<p><strong>Approval:</strong> Admin reviews and approves the vendor before their products are listed.</p>
+</li>
+<li>
+<p><strong>Product Management:</strong> Once approved, vendors can add, edit, and manage products, set discounts, and create “Today’s Deals.”</p>
+</li>
+<li>
+<p><strong>EPOS Integration:</strong> Vendors can sync products and inventory with EPOS Now to keep online and in-store catalogs consistent.</p>
+</li>
+</ul>
+<h3 id="customer-flow">Customer Flow<a hidden class="anchor" aria-hidden="true" href="#customer-flow">#</a></h3>
+<ul>
+<li>
+<p><strong>Sign Up &amp; Verification:</strong> Customers register via a form with OTP email verification (handled asynchronously by Celery) or Google Sign-In.</p>
+</li>
+<li>
+<p><strong>Browse Products:</strong> Customers can browse products by category, deals, or offers.</p>
+</li>
+<li>
+<p><strong>Wishlist &amp; Cart:</strong> Customers can add products to their wishlist or cart for later purchase.</p>
+</li>
+<li>
+<p><strong>Place Orders:</strong> Customers checkout securely using Stripe and can order from multiple vendors in one transaction.</p>
+</li>
+<li>
+<p><strong>Order Notifications:</strong> Customers receive emails with details of the products they ordered, including prices and vendor information.</p>
+</li>
+</ul>
+<h3 id="key-features--backend-handling">Key Features / Backend Handling<a hidden class="anchor" aria-hidden="true" href="#key-features--backend-handling">#</a></h3>
+<ul>
+<li>
+<p><strong>Multi-vendor support:</strong> Each vendor manages their own products, discounts, and delivery rules.</p>
+</li>
+<li>
+<p><strong>OTP verification &amp; email notifications:</strong> Managed asynchronously using Celery.</p>
+</li>
+<li>
+<p><strong>Deals &amp; Offers:</strong> “Today’s Deals” and special offers highlight discounted products.</p>
+</li>
+<li>
+<p><strong>Payment Integration:</strong> Stripe enables secure and seamless customer payments.</p>
+</li>
+<li>
+<p><strong>EPOS Sync:</strong> Bi-directional product and inventory flow between Thinkmart and vendor POS.</p>
+</li>
+<li>
+<p><strong>Order Emails:</strong> Customers get detailed emails for every order they place, showing products and prices.</p>
+</li>
+</ul>
+<hr>
+<h2 id="-final-thoughts">🚀 Final Thoughts<a hidden class="anchor" aria-hidden="true" href="#-final-thoughts">#</a></h2>
+<p><a href="https://www.thinkmart.com.au/"><strong>Thinkmart(thinkmart.com)</strong></a> bridges a real market gap: it brings community-specific grocery catalogs (like Nepali
+products) into a modern, scalable marketplace while staying inclusive of all vendors.</p>
+<p>With a robust AWS + Django/DRF backbone, async tasking via Celery, Stripe payments, and EPOS Now syncing, the platform balances customer convenience with vendor autonomy—and sets the stage for sustainable growth across Australian suburbs and beyond.</p>
+<hr>
 
 
   </div>

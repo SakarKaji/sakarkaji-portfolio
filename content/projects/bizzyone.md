@@ -1,34 +1,66 @@
 ---
 title: "Bizzyone"
-description: "Bizzyone – A Connected Platform for Real Estate Buyers, Sellers & Admins"
+description: "Bizzyone – A Connected Platform for Real Estate Buyers, Sellers & Agents"
 dateString: May 2025
 draft: false
 tags: ["AWS", "Flask", "Celery", "GitHub Action", "Docker", "Postgres"]
 weight: 51
 cover:
     image: "/projects/bizzyone/home.png"
+
+showToc: false
+
 ---
 
+
 ## Intro
-The project [**Bizzyone**](https://www.bizzyone.com/) delivers a comprehensive, multi-platform system that seamlessly connects buyers, sellers, and agents, while enabling super admin and manager to manage and moderate the platform.
 
-<!-- In my video about [**How I cleared the AWS SAA Certification Exam**](https://arkalim.org/blog/aws-saa-certification/), I shared my preparation strategy as well as tips to ace the exam. I also gave a glimpse of my revision notes that I prepared while taking the course and practice exams on Udemy. After that video was out, I got so many comments and DMs, requesting me to share my notes, but the problem was that I took these notes using a note-taking app called Obsidian which stores them in markdown format locally on my Mac. Once I'm done editing my notes, I push them to a GitHub repository to make sure I don't lose them if my laptop breaks.
+[**Bizzyone(bizzyone.com)**](https://www.bizzyone.com/) is an online marketplace for commercial real estate which provides a platform where buyers, sellers, agents, and admins interact seamlessly.
 
-![my notes](/projects/obsidian-publish-github-action/img1.jpg)
+In Nepal, real estate pricing is highly inconsistent, with sellers often quoting random rates and brokers charging excessive commissions and this lack of transparency creates confusion, mistrust, and unfair deals for both buyers and sellers. 
 
-So, if you want to view my notes exactly like I do, you can clone my [**Obsidian Vault**](https://github.com/arkalim/obsidian-vault) repository and download **Obsidian** to render it. But, this solution isn't elegant as it would require you to download an additional software. So, I along with my college roommate, [**Sarthak Narayan**](https://sarthaknarayan.tech/), had been working over the past 2 weeks on the project, [**Obsidian Publish using GitHub Action**](https://github.com/project-cool/obsidian-publish-action), which would allow us to effortlessly publish our notes as a static website. 
+Bizzyone solves this by providing a transparent, standardized, and centralized platform for real estate transactions.
 
-It is complete and I've used it to publish my notes at [**notes.arkalim.org**](https://notes.arkalim.org).
-![published notes](/projects/obsidian-publish-github-action/img2.jpg)
+---
 
-## Working
-The **GitHub Action** spins up a **Docker** container which parses and converts Obsidian markdown notes into a special markdown format understood by **MkDocs**, an open-source static site generator. MkDocs is actually meant for preparing documentations but works well for notes too. After the markdown files have been converted, all the images in my notes are compressed to a fraction of their original size so that they can load quickly in your web browser. A static site is then built using MkDocs and then finally deployed on **Netlify**. All of this happens automatically using **GitHub Actions**. All I have to do is update my notes and push the changes to GitHub.
+## 🛠 Tech Stack
 
-## Final thoughts
-Having an automated way to publish your notes online with the community is a powerful way to share knowledge. This project has also made it exceedingly easy for me to refer my notes from anywhere, which is powerful when you work on a lot of systems.
+- **Backend:** Flask (Python), Flask-RESTful APIs  
+- **Database:** PostgreSQL (hosted on DigitalOcean)  
+- **Cloud Services:** DigitalOcean Droplets (servers), Spaces (bucket storage)  
+- **Task Queue:** Celery + Redis (for background jobs like email notifications, OTPs)  
+- **Deployment:** Docker, GitHub Actions CI/CD  
+- **Authentication:** Email/OTP (Celery), Google Sign-In, Apple Sign-In  
 
-## Resources
-- [My Notes](https://notes.arkalim.org)
-- [Obsidian Publish - GitHub Action](https://github.com/project-cool/obsidian-publish-action)
-- [Parser and Image Compressor](https://github.com/project-cool/obsidian-to-mkdocs)
-- [MkDocs - Material Theme](https://squidfunk.github.io/mkdocs-material/) -->
+---
+
+## ⚙️ How It Works
+
+### Seller Flow
+- **Sellers sign up** via form, Google, or Apple login.  
+- **Create listings** (for rent, urgent sale, or standard sale) with property details: photos, floor plans, maps, and financials.  
+- **Agent Support:** Sellers can also assign listings to agents, including broker/agent details.  
+- **Admin Moderation:** Listings are reviewed by admins and faulty ones can be rejected.  
+
+### Buyer Flow
+- **Buyers register** through form, Google, or Apple login.  
+- **Search listings** with advanced filters (category, price, property type).  
+- **Post requirements** such as “Looking to buy retail space” or “Need industrial warehouse.”  
+- **Contact sellers/agents** directly through the platform.  
+
+### Subscription Model
+- **Basic:** 3 listings per week, standard support.  
+- **Standard:** 10 listings per week, includes featured listings.  
+- **Premium:** Unlimited listings + advanced advertising & marketing tools.  
+
+### Admin & Manager Flow
+- **Admins manage users, listings, and subscriptions.**  
+- **Moderation system** ensures only high-quality, fraud-free listings.  
+- **Analytics & oversight** to track platform activity and performance.  
+
+---
+
+## 🚀 Final Thoughts
+**Bizzyone ([bizzyone.com](https://www.bizzyone.com/))** is the live output of this project—an operational, subscription-based **real estate marketplace for Nepal**.  
+
+Through this project, I strengthened my expertise in multi-role systems and  scalable backend services   

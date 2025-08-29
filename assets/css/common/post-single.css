@@ -9,6 +9,7 @@
 }
 
 .post-description {
+    font-size: 20px;
     margin-top: 10px;
     margin-bottom: 5px;
 }
@@ -34,6 +35,8 @@
 
 .post-content {
     color: var(--content);
+    font-size: 19px;
+    /* line-height: 1.7; */
 }
 
 .post-content h3,
