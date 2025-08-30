@@ -79,6 +79,15 @@
     </item>
     
     <item>
+      <title>Embeddings</title>
+      <link>http://localhost:1313/tags/embeddings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/embeddings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Flask</title>
       <link>http://localhost:1313/tags/flask/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -120,6 +129,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/llm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LLMs</title>
+      <link>http://localhost:1313/tags/llms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/llms/</guid>
       <description></description>
     </item>
     
@@ -187,6 +205,24 @@
     </item>
     
     <item>
+      <title>Qdrant</title>
+      <link>http://localhost:1313/tags/qdrant/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/qdrant/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RAG</title>
+      <link>http://localhost:1313/tags/rag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/rag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Redis</title>
       <link>http://localhost:1313/tags/redis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -219,6 +255,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/scrapy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Streamlit</title>
+      <link>http://localhost:1313/tags/streamlit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/streamlit/</guid>
       <description></description>
     </item>
     

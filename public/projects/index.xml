@@ -43,12 +43,21 @@
     </item>
     
     <item>
-      <title>AI enabled voice assistant</title>
+      <title>QuickGPT</title>
+      <link>http://localhost:1313/projects/quickgpt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/quickgpt/</guid>
+      <description>An Intellligent PDF Conversational Agent</description>
+    </item>
+    
+    <item>
+      <title>Madmax - AI enabled voice assistant</title>
       <link>http://localhost:1313/projects/ai-enabled-voice-assistant/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/projects/ai-enabled-voice-assistant/</guid>
-      <description>News delivery application from multiple Nepali and Indian news sources.</description>
+      <description>Neural Network based Voice Assistant for Education</description>
     </item>
     
   </channel>

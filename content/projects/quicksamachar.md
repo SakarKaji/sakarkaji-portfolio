@@ -3,7 +3,7 @@ title: "QuickSamachar"
 description: "News delivery application from multiple Nepali and Indian news sources."
 dateString: November 2024
 draft: false
-tags: ["AWS","Django", "GitHub Action", "Docker", "Bash", "Scrappy", "Postgres",  "Edge-tts"]
+tags: ["AWS","Django", "GitHub Action", "Docker", "Bash", "Scrappy", "Postgres",  "Edge-tts", "Text-to-Speech"]
 weight: 53
 cover:
     image: "/projects/quicksamachar/image.png"
@@ -20,6 +20,7 @@ Elderly users and specially-abled users face challenges in reading or navigating
 
 This app converts news into audio using Edge TTS and delivers organized articles along with daily horoscopes and trending short videos through a fast, cloud-powered backend, making content accessible to elderly users, specially-abled users, and anyone who prefers listening.
 
+---
 
 
 ## 🛠 Tech Stack

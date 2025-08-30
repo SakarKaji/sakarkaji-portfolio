@@ -10,6 +10,8 @@
   </url><url>
     <loc>http://localhost:1313/projects/quicksamachar/</loc>
   </url><url>
+    <loc>http://localhost:1313/projects/quickgpt/</loc>
+  </url><url>
     <loc>http://localhost:1313/projects/ai-enabled-voice-assistant/</loc>
   </url><url>
     <loc>http://localhost:1313/experience/software_engineer/</loc>
@@ -40,6 +42,8 @@
   </url><url>
     <loc>http://localhost:1313/tags/electron/</loc>
   </url><url>
+    <loc>http://localhost:1313/tags/embeddings/</loc>
+  </url><url>
     <loc>http://localhost:1313/experience/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/flask/</loc>
@@ -51,6 +55,8 @@
     <loc>http://localhost:1313/tags/llamaindex/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/llm/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/llms/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/mkdocs/</loc>
   </url><url>
@@ -68,6 +74,10 @@
   </url><url>
     <loc>http://localhost:1313/tags/python/</loc>
   </url><url>
+    <loc>http://localhost:1313/tags/qdrant/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/rag/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/redis/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/regex/</loc>
@@ -79,6 +89,8 @@
     <loc>http://localhost:1313/tags/scrapy/</loc>
   </url><url>
     <loc>http://localhost:1313/search/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/streamlit/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url><url>
