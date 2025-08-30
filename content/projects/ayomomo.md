@@ -9,9 +9,15 @@ weight: 50
 cover:
     image: "/projects/ayomomo/homepage1.png"
 ---
+
+<a href="https://www.ayomomo.com/" target="_blank" rel="noopener noreferrer" style="color:#32CD32; font-weight:bold; text-decoration:none;">
+  View Project ↗
+</a>
+
+
 ## Intro
 
-**[**Ayomomo(ayomomo.com)**](https://www.ayomomo.com/)** is a web platform created for Nepali restaurants in United Kingdom specializing in authentic dumplings (momo). It was initiated by UK based Nepali chef Binod Baral. 
+**[Ayomomo](https://www.ayomomo.com/)** is a web platform created for Nepali restaurants in United Kingdom specializing in authentic dumplings (momo). It was initiated by UK based Nepali chef Binod Baral. 
 
 Many Nepalese living UK miss the authentic taste of their comfort food, and Ayomomo solves this by providing genuine momo that taste like home.
 
@@ -53,7 +59,7 @@ The goal of this project is connecting the Nepalese community to their culture a
 
 ## 🚀 Final Thoughts
 
-Building [**Ayomomo (ayomomo.com)**](https://www.ayomomo.com/) was a journey where I designed and deployed a production-ready system from backend to cloud.
+Building [**Ayomomo**](https://www.ayomomo.com/) was a journey where I designed and deployed a production-ready system from backend to cloud.
 
 Along the way, I implemented CI/CD pipelines, asynchronous task management, and scalable architecture.
 

@@ -12,10 +12,14 @@ showToc: false
 
 ---
 
+<a href="https://www.bizzyone.com/" target="_blank" rel="noopener noreferrer" style="color:#32CD32; font-weight:bold; text-decoration:none;">
+  View Project ↗
+</a>
+
 
 ## Intro
 
-[**Bizzyone(bizzyone.com)**](https://www.bizzyone.com/) is an online marketplace for commercial real estate which provides a platform where buyers, sellers, agents, and admins interact seamlessly.
+[**Bizzyone**](https://www.bizzyone.com/) is an online marketplace for commercial real estate which provides a platform where buyers, sellers, agents, and admins interact seamlessly.
 
 In Nepal, real estate pricing is highly inconsistent, with sellers often quoting random rates and brokers charging excessive commissions and this lack of transparency creates confusion, mistrust, and unfair deals for both buyers and sellers. 
 
@@ -61,6 +65,6 @@ Bizzyone solves this by providing a transparent, standardized, and centralized p
 ---
 
 ## 🚀 Final Thoughts
-**Bizzyone ([bizzyone.com](https://www.bizzyone.com/))** is the live output of this project—an operational, subscription-based **real estate marketplace for Nepal**.  
+[**Bizzyone**](https://www.bizzyone.com/) is the live output of this project—an operational, subscription-based **real estate marketplace for Nepal**.  
 
 Through this project, I strengthened my expertise in multi-role systems and  scalable backend services   

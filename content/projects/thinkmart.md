@@ -12,8 +12,13 @@ showToc: false
 
 ---
 
+
+<a href="https://www.thinkmart.com.au/" target="_blank" rel="noopener noreferrer" style="color:#32CD32; font-weight:bold; text-decoration:none;">
+  View Project ↗
+</a>
+
 ## Intro
-[**Thinkmart(thinkmart.com)**](https://www.thinkmart.com.au/) is a multi-vendor online grocery marketplace in Australia, making Nepali and other ethnic products easy to find while letting vendors manage their products, deals, and deliveries.
+[**Thinkmart**](https://www.thinkmart.com.au/) is a multi-vendor online grocery marketplace in Australia, making Nepali and other ethnic products easy to find while letting vendors manage their products, deals, and deliveries.
 
 It solves the problem of customers struggling to find familiar products in one place and helps small stores sell online without building their own system.
 
@@ -72,7 +77,7 @@ With features like product syncing, secure Stripe payments, daily deals, and adm
 
 ## 🚀 Final Thoughts
 
-[**Thinkmart(thinkmart.com)**](https://www.thinkmart.com.au/) bridges a real market gap: it brings community-specific grocery catalogs (like Nepali
+[**Thinkmart**](https://www.thinkmart.com.au/) bridges a real market gap: it brings community-specific grocery catalogs (like Nepali
 products) into a modern, scalable marketplace while staying inclusive of all vendors. 
 
 With a robust AWS + Django/DRF backbone, async tasking via Celery, Stripe payments, and EPOS Now syncing, the platform balances customer convenience with vendor autonomy—and sets the stage for sustainable growth across Australian suburbs and beyond.
