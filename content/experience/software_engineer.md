@@ -1,7 +1,7 @@
 ---
 title: "Software Engineer"
 description: "Nexsewa | Shankhamul, Kathmandu " 
-dateString: Dec 2024 – Present
+dateString: Dec 2024 – Dec 2025
 draft: false
 tags: ["Python", "Django", "Flask", "Docker", "Celery", "Redis", "AWS", "Postgres"]
 showToc: false
@@ -10,6 +10,6 @@ weight: 248
 
 ### Description
 
-**Designing backend systems with cloud technology that are fast, scalable, and built for impact.**
+**Designed backend systems with cloud technology that are fast, scalable, and built for impact.**
   
 ![](/experience/software_engineer/ns2.png#center)

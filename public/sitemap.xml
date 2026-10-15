@@ -16,6 +16,8 @@
   </url><url>
     <loc>http://localhost:1313/projects/ai-enabled-voice-assistant/</loc>
   </url><url>
+    <loc>http://localhost:1313/experience/fullstack_software_engineer/</loc>
+  </url><url>
     <loc>http://localhost:1313/experience/software_engineer/</loc>
   </url><url>
     <loc>http://localhost:1313/experience/associate/</loc>
@@ -44,11 +46,15 @@
   </url><url>
     <loc>http://localhost:1313/tags/embeddings/</loc>
   </url><url>
+    <loc>http://localhost:1313/tags/erp/</loc>
+  </url><url>
     <loc>http://localhost:1313/experience/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/flask/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/github-action/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/javascript/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/langchain/</loc>
   </url><url>
@@ -66,7 +72,11 @@
   </url><url>
     <loc>http://localhost:1313/tags/node.js/</loc>
   </url><url>
+    <loc>http://localhost:1313/tags/odoo/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/ollama/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/owl/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/postgres/</loc>
   </url><url>
@@ -81,6 +91,8 @@
     <loc>http://localhost:1313/tags/redis/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/regex/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/rest-apis/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
   </url><url>
@@ -97,5 +109,7 @@
     <loc>http://localhost:1313/tags/text-to-speech/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/typescript/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/xml/</loc>
   </url>
 </urlset>
