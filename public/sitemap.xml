@@ -2,6 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/projects/labasam/</loc>
+  </url><url>
     <loc>http://localhost:1313/projects/ayomomo/</loc>
   </url><url>
     <loc>http://localhost:1313/projects/bizzyone/</loc>
@@ -31,8 +33,6 @@
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/celery/</loc>
-  </url><url>
-    <loc>http://localhost:1313/blog/digitalocean-flask/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/django/</loc>
   </url><url>
@@ -93,6 +93,8 @@
     <loc>http://localhost:1313/tags/streamlit/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/text-to-speech/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/typescript/</loc>
   </url>
