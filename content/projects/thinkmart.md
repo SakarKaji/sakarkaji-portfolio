@@ -4,7 +4,8 @@ description: "Online Grocery Platform for the Australian Market"
 dateString: Feburary 2025
 draft: false
 tags: ["AWS", "RegEx", "MkDocs", "GitHub Action", "Docker", "Bash", "TypeScript", "Node.JS"]
-weight: 52
+# weight: 52
+weight: 49.1
 cover:
     image: "/projects/thinkmart/cover.png"
 

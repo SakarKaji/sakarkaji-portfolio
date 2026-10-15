@@ -7,12 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>DFW IT PARTNER</title>
+      <link>http://localhost:1313/projects/dfwitpartner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/dfwitpartner/</guid>
+      <description>Custom Odoo ERP apps and integrations for growing businesses</description>
+    </item>
+    
+    <item>
       <title>Labasam</title>
       <link>http://localhost:1313/projects/labasam/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/projects/labasam/</guid>
       <description>A ride sharing app</description>
+    </item>
+    
+    <item>
+      <title>Thinkmart</title>
+      <link>http://localhost:1313/projects/thinkmart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/thinkmart/</guid>
+      <description>Online Grocery Platform for the Australian Market</description>
     </item>
     
     <item>
@@ -31,15 +49,6 @@
       
       <guid>http://localhost:1313/projects/bizzyone/</guid>
       <description>Bizzyone – A Connected Platform for Real Estate Buyers, Sellers &amp;amp; Agents</description>
-    </item>
-    
-    <item>
-      <title>Thinkmart</title>
-      <link>http://localhost:1313/projects/thinkmart/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/projects/thinkmart/</guid>
-      <description>Online Grocery Platform for the Australian Market</description>
     </item>
     
     <item>
@@ -75,7 +84,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/experience/fullstack_software_engineer/</guid>
-      <description>Nexsewa | Irvin, Texas </description>
+      <description>Nexsewa | Irving, Texas </description>
     </item>
     
     <item>

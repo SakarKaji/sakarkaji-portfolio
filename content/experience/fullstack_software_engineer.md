@@ -1,6 +1,6 @@
 ---
 title: "Full Stack Software Engineer"
-description: "Nexsewa | Irvin, Texas " 
+description: "Nexsewa | Irving, Texas " 
 dateString: Dec 2025 – Present
 draft: false
 tags: ["Python", "ERP", "Odoo", "Postgres", "JavaScript", "OWL", "XML", "REST APIs"]
