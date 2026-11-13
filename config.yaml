@@ -2,6 +2,7 @@ baseURL: "https://sakarkajidotel.com.np"
 languageCode: en-us
 title: Sakar Kaji Dotel
 theme: PaperMod
+enableRobotsTXT: true
 
 menu:
   main:
@@ -44,6 +45,9 @@ params:
 
   # for enchanced SEO
   env: production
+  description: "Sakar Kaji Dotel – Full Stack Software Engineer specializing in Python, Django, Odoo ERP, and AWS."
+  author: "Sakar Kaji Dotel"
+  images: ["home/profile.png"]
 
   # Home Page
   profileMode:
