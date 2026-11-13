@@ -30,8 +30,12 @@ cover:
 <a class="store-link" href="#">App Store (Driver) ↗</a> -->
 
 
-<a class="store-link" href="https://play.google.com/store/apps/details?id=com.labasam.rider&hl=en" target="_blank" rel="noopener noreferrer">Play Store ↗</a>
-<a class="store-link" href="https://apps.apple.com/np/app/labasam/id6677030592" target="_blank" rel="noopener noreferrer">App Store  ↗</a>
+<!-- <a class="store-link" href="https://play.google.com/store/apps/details?id=com.labasam.rider&hl=en" target="_blank" rel="noopener noreferrer">Play Store ↗</a>
+<a class="store-link" href="https://apps.apple.com/np/app/labasam/id6677030592" target="_blank" rel="noopener noreferrer">App Store  ↗</a> -->
+
+<a class="store-link" href="https://play.google.com/store/apps/details?id=com.labasam.passenger" target="_blank" rel="noopener noreferrer">Play Store (Passenger) ↗</a>
+<a class="store-link" href="https://play.google.com/store/apps/details?id=com.labasam.rider" target="_blank" rel="noopener noreferrer">Play Store (Driver) ↗</a>
+
 
 ## Intro
 **LaBasam** is a Nepal-based ride-sharing app available on iOS and Android, built to make daily travel faster, easier, and safer for passengers and drivers.
