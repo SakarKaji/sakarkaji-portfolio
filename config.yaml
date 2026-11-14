@@ -1,6 +1,6 @@
 baseURL: "https://www.sakarkajidotel.com.np"
 languageCode: en-us
-title: Sakar Kaji Dotel
+title: "Sakar Kaji Dotel | Software Engineer"
 theme: PaperMod
 enableRobotsTXT: true
 
@@ -36,6 +36,10 @@ menu:
     #   weight: 70
 
 params:
+  # header logo text (page title stays as "title" above)
+  label:
+    text: "Sakar Kaji Dotel"
+
   # theme
   showToc: true
   TocOpen: false
